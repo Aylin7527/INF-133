@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaptive Layout</title>
+  <style>
+    .container {
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Diseño para computadoras */
+    @media (min-width: 1024px) {
+      .container {
+        width: 900px;
+        background-color: lightblue;
+      }
+    }
+
+    /* Diseño para tablets */
+    @media (max-width: 1023px) and (min-width: 600px) {
+      .container {
+        width: 80%;
+        background-color: lightgreen;
+      }
+    }
+
+    /* Diseño para móviles */
+    @media (max-width: 599px) {
+      .container {
+        width: 100%;
+        background-color: pink;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Este es un layout adaptativo</h2>
+    <p>Dependiendo del dispositivo, cambia el tamaño y el color.</p>
+  </div>
+</body>
+</html>
