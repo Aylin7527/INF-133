@@ -1,0 +1,50 @@
+1RA PRUEBA
+Basica151.925ms
+Promesas272.584ms
+Pooling501.396ms
+2DA PRUEBA
+Basica268.366ms
+Promesas116.339ms
+Pooling817.695ms
+3RA PRUEBA
+Basica223.241ms
+Promesas172.633ms
+Pooling518.073ms
+4TA PRUEBA
+Basica351.893ms
+Promesas137.904ms
+Pooling644.323ms
+5TA PRUEBA
+Basica197.656ms
+Promesas243.536ms
+Pooling534.036ms
+
+
+
+
+
+
+
+
+
+1RA PRUEBA
+Tiempo de Conexion Basica: 382 ms
+Tiempo de Consulta Basica: 43 ms
+Tiempo de Conexion Promesas: 321 ms
+Tiempo de Consulta Promesas: 64 ms
+Tiempo de Conexion Pool: 209 ms
+Tiempo de Consulta Pool: 26 ms
+2DA PRUEBA
+Tiempo de Conexion Basica: 251 ms
+Tiempo de Consulta Basica: 27 ms
+Tiempo de Conexion Promesas: 211 ms
+Tiempo de Consulta Promesas: 61 ms
+Tiempo de Conexion Pool: 207 ms
+Tiempo de Consulta Pool: 99 ms
+3RA PRUEBA
+Tiempo de Conexion Basica: 286 ms
+Tiempo de Consulta Basica: 23 ms
+Tiempo de Conexion Promesas: 216 ms
+Tiempo de Consulta Promesas: 119 ms
+Tiempo de Conexion Pool: 194 ms
+Tiempo de Consulta Pool: 24 ms
